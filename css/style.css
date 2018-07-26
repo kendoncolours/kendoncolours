@@ -18,7 +18,7 @@ body {
 }
 
 .carousel-image-1 {
-  background: url("../img/image1.jpg");
+  background: url("https://source.unsplash.com/random/560x560");
   background-size: cover;
 }
 .carousel-image-2 {
@@ -95,4 +95,20 @@ body {
 #main-footer {
   background: #000;
   color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .carousel-item {
+    height: 550px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .carousel-item {
+    height: 800px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 150px !important;
+  }
 }
