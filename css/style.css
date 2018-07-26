@@ -97,6 +97,24 @@ body {
   color: #fff;
 }
 
+@media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+
+  .carousel-caption a {
+    font-size: 1.2rem;
+  }
+
+  .carousel-item {
+    height: 400px;
+  }
+}
+
 @media (min-width: 1200px) {
   .carousel-item {
     height: 550px;
