@@ -18,11 +18,13 @@ body {
 }
 
 .carousel-image-1 {
-  background: url("https://source.unsplash.com/random/560x560");
+  background: url("/img//dark-smoke.jpg");
+  background-position: 0 -500px;
   background-size: cover;
 }
 .carousel-image-2 {
-  background: url("../img/image2.jpg");
+  background: url("../img/dandy.jpg");
+  background-position: 0 -500px;
   background-size: cover;
 }
 .carousel-image-3 {
