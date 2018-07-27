@@ -115,6 +115,10 @@ body {
   .carousel-item {
     height: 400px;
   }
+
+  .staffTitlePaddingSmall {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
