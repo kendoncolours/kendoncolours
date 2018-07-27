@@ -18,7 +18,7 @@ body {
 }
 
 .carousel-image-1 {
-  background: url("/img/smaller-smoke.jpeg");
+  background: url("../img/smaller-smoke.jpeg");
   background-position: 0 -500px;
   background-size: cover;
 }
