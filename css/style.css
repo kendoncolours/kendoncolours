@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -28,7 +24,7 @@ body {
   background-size: cover;
 }
 .carousel-image-3 {
-  background: url("../img/image3.jpg");
+  background: url("../img/smallerSmoke.jpeg");
   background-size: cover;
 }
 
@@ -92,6 +88,11 @@ body {
 #faq .card-body,
 #faq .card-header {
   background: #333;
+}
+
+.lightboxPhotoEnlarged {
+  height: 560px;
+  width: 560px;
 }
 
 #main-footer {
